@@ -1,32 +1,31 @@
-# Devtoken-interface-2nd project
-Web3 dApp to view and transfer DevToken (ERC-20) on Polygon Amoy
+# Day 2 – DevToken Web Interface (ERC-20)
 
-This React-based web interface allows users to interact with a custom ERC-20 token named **DevToken**, deployed on the Polygon Amoy testnet.
+A simple React dashboard (Vite + Ethers.js) that connects to a deployed ERC-20 smart contract (`DevToken`) on the Polygon Amoy testnet.
 
-## 🔗 Contract Details
+## 🔗 Contract
 
-- **Contract Address:** `0xdAcdF09E174Ee1a99b3EF447dFdb6CE9dB4B1B21`
-- **Polygonscan:** [View Contract on Amoy Explorer](https://amoy.polygonscan.com/address/0xdAcdF09E174Ee1a99b3EF447dFdb6CE9dB4B1B21)
+- **Address**: `0xdAcdF09E174Ee1a99b3EF447dFdb6CE9dB4B1B21`
+- **View on Polygonscan**: [https://amoy.polygonscan.com/address/0xdAcdF09E174Ee1a99b3EF447dFdb6CE9dB4B1B21](https://amoy.polygonscan.com/address/0xdAcdF09E174Ee1a99b3EF447dFdb6CE9dB4B1B21)
 
 ## 🎯 Features
 
-- Connect to MetaMask wallet
-- View DevToken balance (`balanceOf`)
-- Transfer tokens to any address (`transfer`)
+- Connects with MetaMask
+- Displays DevToken balance using `balanceOf()`
+- Transfers tokens using `transfer()`
+- Uses Ethers.js to interact with the blockchain
 
-## 🖼️ Screenshots
+## 🎥 Video Demo
 
-See the `/screenshots` folder for proof of:
-- Wallet connection
-- Balance display
-- Successful token transfer
-- Polygonscan transaction confirmation
+👉 find the video in the files linked to the repo
+(The video includes connection, balance check, transfer, and Polygonscan verification)
 
-## 🧪 Tech Stack
+## 🧱 Tech Stack
 
 - React (Vite)
 - Ethers.js
 - MetaMask
 - Solidity (OpenZeppelin ERC-20)
 
-## 📁 Project Structure
+## 🧪 Status: ✅ Working on Testnet
+
+
