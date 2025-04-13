@@ -1,4 +1,4 @@
-# Day 2 – DevToken Web Interface (ERC-20)
+# Project 2 – DevToken Web Interface (ERC-20)
 
 A simple web interface built with **React (Vite)** and **Ethers.js**, allowing users to interact with the ERC-20 `DevToken` smart contract deployed on the **Polygon Amoy testnet**.
 
